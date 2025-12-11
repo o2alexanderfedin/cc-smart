@@ -11,7 +11,10 @@
   "plugins": [
     {
       "name": "taches-cc-resources",
-      "source": "./",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/o2alexanderfedin/cc-smart.git"
+      },
       "description": "Skills and commands for prompt engineering, MCP servers, subagents, hooks, and productivity workflows",
       "version": "1.0.0",
       "strict": true
